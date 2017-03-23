@@ -1,0 +1,27 @@
+{
+  "name": "Atom-Simplified-Chinese",
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "description": "Atom简体中文语言包",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chinjunmin/atom-simplified-chinese"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "keywords": [
+    "language",
+    "chinesee",
+    "simplified",
+    "简体中文",
+    "汉化",
+    "chinakids"
+  ],
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/chinjunmin/atom-simplified-chinese/issues"
+  },
+  "homepage": "https://github.com/chinjunmin/atom-simplified-chinese"
+}
