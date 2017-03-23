@@ -2,7 +2,7 @@
   "name": "Atom-Simplified-Chinese",
   "main": "./lib/main",
   "version": "0.1.0",
-  "description": "Atom简体中文语言包",
+  "description": "Atom简体中文语言包，Atom v1.15.0 适用。",
   "repository": {
     "type": "git",
     "url": "https://github.com/chinjunmin/atom-simplified-chinese"
