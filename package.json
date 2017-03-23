@@ -1,7 +1,7 @@
 {
   "name": "Atom-Simplified-Chinese",
   "main": "./lib/main",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Atom简体中文语言包，Atom v1.15.0 适用。",
   "repository": {
     "type": "git",
