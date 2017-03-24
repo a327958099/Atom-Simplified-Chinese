@@ -19,7 +19,7 @@ Menu:
           "Clear Project History":
             value: "清除历史"
       "Reopen Last &Item":
-        value: "打开最后一次使用的项目(&I)"
+        value: "打开上一个关闭的文件(&I)"
       "&Save":
         value: "保存(&S)"
       "Save &As…":
@@ -78,9 +78,9 @@ Menu:
         value: "列"
         submenu:
           "Move Selection &Left":
-            value: "选中项向左移动(&L)"
+            value: "左移选择列(&L)"
           "Move Selection &Right":
-            value: "选中项左移动选择项(&R)"
+            value: "右移选择列(&R)"
       Text:
         value: "文本"
         submenu:
@@ -157,12 +157,12 @@ Menu:
       "Go to Line":
         value: "前往指定行"
       "Select Grammar":
-        value: "选择语法"
+        value: "切换语法"
   "&View":
     value: "查看(&V)"
     submenu:
       "Toggle &Full Screen":
-        value: "重新加载(&F)"
+        value: "切换全屏(&F)"
       "Toggle Menu Bar":
         value: "切换菜单栏"
       Panes:
@@ -194,7 +194,7 @@ Menu:
         value: "开发者"
         submenu:
           "Open In &Dev Mode…":
-            value: "打开开发模式(&D)..."
+            value: "启用开发模式(&D)..."
           "&Reload Window":
             value: "重新加载窗口(&R)"
           "Run Package &Specs":
@@ -280,7 +280,7 @@ Menu:
       "Find Modified File":
         value: "查找修改后的文件"
   "&Packages":
-    value: "插件包(&P)"
+    value: "扩展(&P)"
   "&Help":
     value: "帮助(&H)"
     submenu:
@@ -291,7 +291,7 @@ Menu:
       "&Documentation":
         value: "文档(&D)"
       Roadmap:
-        value: "路线图"
+        value: "产品路线图"
       "Frequently Asked Questions":
         value: "常见问题"
       "Community Discussions":

@@ -85,7 +85,7 @@ class Preferences
     PU.applyButtonToolbar()
     inst = document.querySelector('div.section:not(.themes-panel)')
     info = inst.querySelector('.native-key-bindings')
-    info.querySelector('span:nth-child(2)').textContent = "插件包发布于 "
+    info.querySelector('span:nth-child(2)').textContent = "扩展发布于 "
 
 
 module.exports = Preferences

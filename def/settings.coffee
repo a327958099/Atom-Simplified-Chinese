@@ -62,11 +62,11 @@ Settings:
     notes: [
       {
         id: 'core-settings-note'
-        html: '这些是Atom的基础设置。仅包含文本编辑以外的设置。 插件包需要在<a class="link packages-open">插件包列表</a>中找到其附加设置。'
+        html: '这些是Atom的基础设置。仅包含文本编辑以外的设置。 扩展需要在<a class="link packages-open">扩展列表</a>中找到其附加设置。'
       }
       {
         id: 'editor-settings-note'
-        html: '这些是与文本编辑有关的设置。 其中一些可能被语言插件包覆盖。 在<a class="link packages-open">插件包列表</a>点击该语言插件包来检查语言设置。'
+        html: '这些是与文本编辑有关的设置。 其中一些可能被语言扩展覆盖。 在<a class="link packages-open">扩展列表</a>点击该语言扩展来检查语言设置。'
       }
     ]
     controls: [

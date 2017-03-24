@@ -4,7 +4,7 @@ Context:
     "application:inspect": "验证元素"
   "atom-text-editor":
     "color-picker:open": "拾色器"
-    "minimap:toggle": "切换小地图"
+    "minimap:toggle": "切换代码地图"
   "atom-text-editor, .overlayer":
     "core:undo": "撤销"
     "core:redo": "重做"
@@ -27,7 +27,7 @@ Context:
   "atom-text-editor:not([mini])":
     "encoding-selector:show": "编码选择"
     "spell-check:correct-misspelling": "拼写检查"
-    "symbols-view:go-to-declaration": "转至声明"
+    "symbols-view:go-to-declaration": "跳转至声明点"
   ".overlayer":
     "autocomplete:toggle": "自动完成"
     "grammar-selector:show": "语法选择"
@@ -45,15 +45,15 @@ Context:
     "tabs:split-left": "窗格拆分 ←"
     "tabs:split-right": "窗格拆分 →"
   ".tab.texteditor":
-    "tabs:open-in-new-window": "新規ウインドウで開く"
+    "tabs:open-in-new-window": "打开新窗口"
   ".tab.pending-tab":
-    "tabs:keep-pending-tab": "プレビュー状態を解除"
+    "tabs:keep-pending-tab": "取消预览*"
   ".tab-bar":
     "pane:reopen-closed-item": "重新打开关闭项"
   ".tree-view.full-menu":
     "tree-view:add-file": "新建文件"
     "tree-view:add-folder": "新建文件夹"
-    "tree-view:move": "移动"
+    "tree-view:move": "移动或重命名"
     "tree-view:duplicate": "复制并新建"
     "tree-view:remove": "删除"
     "tree-view:copy": "复制"
@@ -74,8 +74,8 @@ Context:
     "tree-view:open-selected-entry-right": "窗格拆分 →"
   ".tree-view.full-menu .project-root > .header":
     "tree-view:add-file": "新建文件"
-    "tree-view:add-folder": "新建目录"
-    "tree-view:move": "移动"
+    "tree-view:add-folder": "新建文件夹"
+    "tree-view:move": "移动或重命名"
     "tree-view:duplicate": "复制并新建"
     "tree-view:remove": "删除"
     "tree-view:copy": "复制"
@@ -104,10 +104,10 @@ Context:
     "tree-view:cut": "剪切"
     "tree-view:paste": "粘贴"
   "atom-pane[data-active-item-path] .item-views":
-    "tree-view:reveal-active-file": "在树状图中显示"
+    "tree-view:reveal-active-file": "定位到目录"
   "atom-pane[data-active-item-path] .tab.active":
     "tree-view:rename": "移动"
-    "tree-view:reveal-active-file": "reveal active file"
+    "tree-view:reveal-active-file": "定位到目录"
   ".platform-darwin atom-pane[data-active-item-path] .tab.active":
     "tree-view:show-current-file-in-file-manager": "在Finder中显示"
   ".platform-win32 atom-pane[data-active-item-path] .tab.active":

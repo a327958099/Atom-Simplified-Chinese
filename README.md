@@ -26,3 +26,6 @@ Atom 的简体中文汉化语言包。包含菜单汉化、右键菜单汉化以
 - 日文(syon)：
 
 	[japanese-menu](https://atom.io/packages/japanese-menu)
+
+### LICENSE
+	[MIT](https://github.com/chinjunmin/atom-simplified-chinese/raw/master/LICENSE.md)

@@ -87,13 +87,13 @@ class PreferencesSettings
     inst = document.querySelector('div.section:not(.themes-panel)')
     info = inst.querySelector('.native-key-bindings')
     unless PU.isAlreadyLocalized(info)
-      info.querySelector('span:nth-child(2)').textContent = "插件包发布于"
+      info.querySelector('span:nth-child(2)').textContent = "扩展发布于"
       tc = info.querySelector('span:nth-child(4)')
       tc.textContent = tc.textContent.replace("and are installed to", "，被安装在路径")
       span = document.createElement('span')
       info.appendChild(span)
       info.setAttribute('data-localized', 'true')
-    PU.applyTextWithOrg(inst.querySelector('.search-container .btn:nth-child(1)'), "插件包")
+    PU.applyTextWithOrg(inst.querySelector('.search-container .btn:nth-child(1)'), "扩展")
     PU.applyTextWithOrg(inst.querySelector('.search-container .btn:nth-child(2)'), "主题")
 
 
