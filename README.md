@@ -1,4 +1,4 @@
-# Atom - Chinese(Simplified)
+# Atom - Simplified Chinese
 
 Atom 的简体中文汉化语言包。包含菜单汉化、右键菜单汉化以及设置汉化。
 
@@ -14,7 +14,7 @@ Atom 的简体中文汉化语言包。包含菜单汉化、右键菜单汉化以
 
 - 翻译参考
 
-	* sublime 的汉化方案
+	* Sublime Text的汉化方案
 
   * [atom-simplified-chinese-menu](https://atom.io/packages/atom-simplified-chinese-menu)
 
