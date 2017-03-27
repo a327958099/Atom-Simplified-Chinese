@@ -52,7 +52,7 @@ Settings:
     {label: "Community Packages", value: "社区扩展"}
     {label: "Core Packages", value: "基础扩展"}
     {label: "Development Packages", value: "开发扩展"}
-    {label: "Git Packages", value: "Git パッケージ"}
+    {label: "Git Packages", value: "Git 扩展"}
     {label: "Community Themes", value: "社区主题"}
     {label: "Core Themes", value: "基础主题"}
     {label: "Development Themes", value: "开发主题"}
