@@ -25,4 +25,4 @@ Atom 的简体中文汉化语言包。包含菜单汉化、右键菜单汉化以
 
 Everything in this repo is MIT License unless otherwise specified.
 
-[MIT](https://github.com/chinjunmin/atom-simplified-chinese/raw/master/LICENSE.md) © Chin Junmin.
+[MIT](https://github.com/chinjunmin/atom-simplified-chinese/raw/master/LICENSE.md) © Chin Junmin
