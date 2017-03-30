@@ -239,7 +239,7 @@ Menu:
       "Select to First &Character of Line":
         value: "选择至行的首字符(&C)"
       "Select to End of Wor&d":
-        value: "単語の末选择至单词末尾まで選択(&D)"
+        value: "选择至单词末(&D)"
       "Select to End of Lin&e":
         value: "选择至行末(&E)"
       "Select Inside Brackets":

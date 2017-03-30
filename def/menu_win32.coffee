@@ -214,38 +214,38 @@ Menu:
       "Toggle Tree View":
         value: "切换目录树"
       "Toggle Tool Bar":
-        value: "ツールバー"
+        value: "切换工具栏"
   "&Selection":
     value: "选择(&S)"
     submenu:
       "Add Selection &Above":
-        value: "選択範囲を広げる ↑(&A)"
+        value: "添加选择上一行 ↑(&A)"
       "Add Selection &Below":
-        value: "選択範囲を広げる ↓(&B)"
+        value: "添加选择下一行 ↓(&B)"
       "S&plit into Lines":
-        value: "選択範囲を各行に分割して同時操作(&P)"
+        value: "选择的各行同时操作(&P)"
       "Single Selection":
         value: "单选"
       "Select to &Top":
-        value: "ファイル先頭まで選択(&T)"
+        value: "选至顶部(&T)"
       "Select to Botto&m":
-        value: "ファイル末尾まで選択(&M)"
+        value: "选至底部(&M)"
       "Select &Line":
-        value: "行を選択(&L)"
+        value: "选择整行(&L)"
       "Select &Word":
-        value: "単語を選択(&W)"
+        value: "选择单词(&W)"
       "Select to Beginning of W&ord":
-        value: "単語の先頭まで選択(&O)"
+        value: "选择至单词首(&O)"
       "Select to Beginning of L&ine":
-        value: "行頭まで選択(&I)"
+        value: "选择至行首(&I)"
       "Select to First &Character of Line":
-        value: "行の最初の文字まで選択(&C)"
+        value: "选择至行的首字符(&C)"
       "Select to End of Wor&d":
-        value: "単語の末尾まで選択(&D)"
+        value: "选择至单词末(&D)"
       "Select to End of Lin&e":
-        value: "行末まで選択(&E)"
+        value: "选择至行末(&E)"
       "Select Inside Brackets":
-        value: "カッコ内を選択"
+        value: "选择括号内"
   "F&ind":
     value: "查找(&I)"
     submenu:

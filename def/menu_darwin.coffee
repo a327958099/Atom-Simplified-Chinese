@@ -236,7 +236,7 @@ Menu:
       "Single Selection":
         value: "单选"
       "Split into Lines":
-        value: "選択範囲を各行に分割して同時操作"
+        value: "选择的各行同时操作"
       "Select to Top":
         value: "选至顶部"
       "Select to Bottom":
@@ -250,7 +250,7 @@ Menu:
       "Select to Beginning of Line":
         value: "选择至行首"
       "Select to First Character of Line":
-        value: "选择至行的首词之首"
+        value: "选择至行的首字符"
       "Select to End of Word":
         value: "选择至单词末"
       "Select to End of Line":
