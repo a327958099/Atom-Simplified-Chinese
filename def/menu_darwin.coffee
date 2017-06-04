@@ -242,7 +242,7 @@ Menu:
       "Select to Bottom":
         value: "选至底部"
       "Select Line":
-        value: "选择整行"
+        value: "选择正航"
       "Select Word":
         value: "选择单词"
       "Select to Beginning of Word":

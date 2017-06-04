@@ -28,6 +28,8 @@ Context:
     "encoding-selector:show": "编码选择"
     "spell-check:correct-misspelling": "拼写检查"
     "symbols-view:go-to-declaration": "跳转至声明点"
+  ".tree-view li.directory":
+    "project-find:show-in-current-directory": "在目录中搜索"
   ".overlayer":
     "autocomplete:toggle": "自动完成"
     "grammar-selector:show": "语法选择"
@@ -50,7 +52,7 @@ Context:
     "tabs:keep-pending-tab": "取消预览*"
   ".tab-bar":
     "pane:reopen-closed-item": "重新打开关闭项"
-  ".tree-view.full-menu":
+  ".tree-view .full-menu":
     "tree-view:add-file": "新建文件"
     "tree-view:add-folder": "新建文件夹"
     "tree-view:move": "移动或重命名"
@@ -59,20 +61,16 @@ Context:
     "tree-view:copy": "复制"
     "tree-view:cut": "剪切"
     "tree-view:paste": "粘贴"
-    "tree-view:open-selected-entry-up": "窗格拆分 ↑"
-    "tree-view:open-selected-entry-down": "窗格拆分 ↓"
-    "tree-view:open-selected-entry-left": "窗格拆分 ←"
-    "tree-view:open-selected-entry-right": "窗格拆分 →"
     "application:add-project-folder": "添加项目文件夹"
     "tree-view:copy-full-path": "复制完整路径"
     "tree-view:copy-project-path": "复制项目路径"
     "tree-view:open-in-new-window": "打开一个新窗口"
-  '.tree-view.full-menu [is="tree-view-file"]':
+  '.tree-view .full-menu [is="tree-view-file"]':
     "tree-view:open-selected-entry-up": "窗格拆分 ↑"
     "tree-view:open-selected-entry-down": "窗格拆分 ↓"
     "tree-view:open-selected-entry-left": "窗格拆分 ←"
     "tree-view:open-selected-entry-right": "窗格拆分 →"
-  ".tree-view.full-menu .project-root > .header":
+  ".tree-view .full-menu .project-root > .header":
     "tree-view:add-file": "新建文件"
     "tree-view:add-folder": "新建文件夹"
     "tree-view:move": "移动或重命名"
@@ -81,23 +79,17 @@ Context:
     "tree-view:copy": "复制"
     "tree-view:cut": "剪切"
     "tree-view:paste": "粘贴"
-    "tree-view:open-selected-entry-up": "窗格拆分 ↑"
-    "tree-view:open-selected-entry-down": "窗格拆分 ↓"
-    "tree-view:open-selected-entry-left": "窗格拆分 ←"
-    "tree-view:open-selected-entry-right": "窗格拆分 →"
     "application:add-project-folder": "添加项目文件夹"
     "tree-view:remove-project-folder": "移除项目文件夹"
     "tree-view:copy-full-path": "复制完整路径"
     "tree-view:copy-project-path": "复制项目路径"
     "tree-view:open-in-new-window": "打开一个新窗口"
-  ".platform-darwin .tree-view.full-menu":
+  ".platform-darwin .tree-view .full-menu":
     "tree-view:show-in-file-manager": "在Finder中显示"
-  ".platform-win32 .tree-view.full-menu":
+  ".platform-win32 .tree-view .full-menu":
     "tree-view:show-in-file-manager": "在文件管理器中显示"
-  ".platform-linux .tree-view.full-menu":
+  ".platform-linux .tree-view .full-menu":
     "tree-view:show-in-file-manager": "在文件管理器中显示"
-  ".tree-view > li.directory":
-    "project-find:show-in-current-directory": "在目录中搜索"
   ".tree-view.multi-select":
     "tree-view:remove": "删除"
     "tree-view:copy": "复制"

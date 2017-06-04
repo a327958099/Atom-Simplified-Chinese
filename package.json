@@ -1,16 +1,51 @@
 {
-  "name": "Atom-Simplified-Chinese",
-  "main": "./lib/main",
-  "version": "0.4.0",
-  "description": "Atom简体中文语言包，Atom v1.15.0 适用。",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/chinjunmin/atom-simplified-chinese"
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/s2/f806kjqn7870f0vlkn4sk5yc0000gn/T/d-11754-1478-y0lhzs.5h0fz85mi/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/s2/f806kjqn7870f0vlkn4sk5yc0000gn/T/d-11754-1478-y0lhzs.5h0fz85mi/package.tgz",
+        "spec": "/private/var/folders/s2/f806kjqn7870f0vlkn4sk5yc0000gn/T/d-11754-1478-y0lhzs.5h0fz85mi/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/s2/f806kjqn7870f0vlkn4sk5yc0000gn/T/apm-install-dir-11754-1478-8ee7t3.imwz3hm2t9"
+    ]
+  ],
+  "_from": "../d-11754-1478-y0lhzs.5h0fz85mi/package.tgz",
+  "_id": "Atom-Simplified-Chinese@0.4.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/Atom-Simplified-Chinese",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/s2/f806kjqn7870f0vlkn4sk5yc0000gn/T/d-11754-1478-y0lhzs.5h0fz85mi/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/s2/f806kjqn7870f0vlkn4sk5yc0000gn/T/d-11754-1478-y0lhzs.5h0fz85mi/package.tgz",
+    "spec": "/private/var/folders/s2/f806kjqn7870f0vlkn4sk5yc0000gn/T/d-11754-1478-y0lhzs.5h0fz85mi/package.tgz",
+    "type": "local"
   },
-  "license": "MIT",
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11754-1478-y0lhzs.5h0fz85mi/package.tgz",
+  "_shasum": "78c4353fc7f93ec7b9bbe2d34141a26ed5e843d9",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/s2/f806kjqn7870f0vlkn4sk5yc0000gn/T/d-11754-1478-y0lhzs.5h0fz85mi/package.tgz",
+  "_where": "/private/var/folders/s2/f806kjqn7870f0vlkn4sk5yc0000gn/T/apm-install-dir-11754-1478-8ee7t3.imwz3hm2t9",
+  "bugs": {
+    "url": "https://github.com/chinjunmin/atom-simplified-chinese/issues"
+  },
+  "dependencies": {},
+  "description": "Atom简体中文语言包，Atom v1.15.0 适用。",
+  "devDependencies": {},
   "engines": {
     "atom": ">=0.174.0 <2.0.0"
   },
+  "homepage": "https://github.com/chinjunmin/atom-simplified-chinese",
   "keywords": [
     "language",
     "chinesee",
@@ -18,9 +53,33 @@
     "简体中文",
     "汉化"
   ],
-  "dependencies": {},
-  "bugs": {
-    "url": "https://github.com/chinjunmin/atom-simplified-chinese/issues"
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "Atom-Simplified-Chinese",
+  "optionalDependencies": {},
+  "readme": "# Atom - Simplified - Chinese\n\nAtom 的简体中文汉化语言包。包含菜单汉化、右键菜单汉化以及设置汉化。\n\n![screenshot](https://github.com/chinjunmin/atom-simplified-chinese/raw/master/img/screenshot.png)\n\n![screenshot](https://github.com/chinjunmin/atom-simplified-chinese/raw/master/img/screenshot2.png)\n\n![screenshot](https://github.com/chinjunmin/atom-simplified-chinese/raw/master/img/screenshot3.png)\n\n# 说明\n\n-   基于 syon 的 [japanese-menu](https://atom.io/packages/japanese-menu) 的中文解决方案(完整汉化)。\n\n-   翻译参考\n\n    -   Sublime Text的汉化方案\n    -   [atom-simplified-chinese-menu](https://atom.io/packages/atom-simplified-chinese-menu)\n\n-   繁体中文(Sheng-Bo)：[cht-menu](https://atom.io/packages/cht-menu)\n\n-   日文(syon)：[japanese-menu](https://atom.io/packages/japanese-menu)\n\n# LICENSE\n\nEverything in this repo is MIT License unless otherwise specified.\n\n[MIT](https://github.com/chinjunmin/atom-simplified-chinese/raw/master/LICENSE.md) © Chin Junmin\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinjunmin/atom-simplified-chinese.git"
   },
-  "homepage": "https://github.com/chinjunmin/atom-simplified-chinese"
+  "version": "0.4.0",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/context-menu.coffee",
+        "lib/main.coffee",
+        "lib/menu.coffee",
+        "lib/preferences-settings.coffee",
+        "lib/preferences-util.coffee",
+        "lib/preferences.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
 }
